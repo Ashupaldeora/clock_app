@@ -40,45 +40,6 @@ class _clockState extends State<clock> {
                 padding: const EdgeInsets.only(top: 10),
                 child: Stack(
                   children: [
-                    // Container(
-                    //   width: 250,
-                    //   height: 250,
-                    //   decoration: BoxDecoration(
-                    //       borderRadius: BorderRadius.circular(280),
-                    //       boxShadow: [
-                    //         BoxShadow(
-                    //             offset: Offset(-60, 110),
-                    //             color: Color(0xff7E5F64),
-                    //             blurRadius: 80,
-                    //             spreadRadius: -30)
-                    //       ]),
-                    //   child: ClipRRect(
-                    //     borderRadius: BorderRadius.circular(90),
-                    //     child: Image.asset(
-                    //       'assets/images/moon.png',
-                    //       height: 350,
-                    //       fit: BoxFit.cover,
-                    //     ),
-                    //   ),
-                    // ),
-                    // Container(
-                    //   decoration: BoxDecoration(
-                    //       borderRadius: BorderRadius.circular(100),
-                    //       boxShadow: [
-                    //         BoxShadow(
-                    //             offset: Offset(30, 0),
-                    //             color: Color(0xffFEA66A),
-                    //             blurRadius: 30,
-                    //             spreadRadius: -90)
-                    //       ]),
-                    //   child: ClipRRect(
-                    //     borderRadius: BorderRadius.circular(90),
-                    //     child: Image.asset(
-                    //       'assets/images/stars.png',
-                    //       fit: BoxFit.cover,
-                    //     ),
-                    //   ),
-                    // ),
                     (time.hour >= 6 && time.hour <= 19)
                         ? Image.asset('assets/images/good-morning-my-love.gif')
                         : Image.asset('assets/images/giphy.gif')
